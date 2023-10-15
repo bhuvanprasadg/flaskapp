@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                color: rgb(0, 153, 255);
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            li {
+              float: right;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 55px;
+              text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+              background-color: #111;
+            }
+            
+            .active {
+              background-color: #04AA6D;
+            }
+            </style>
+    </head>
+<body background-image="sky.jpeg" background-repeat="no-repeat" background-size="cover">
+<h1 style="text-align: center;">A Categorization of Cloud-Based Services and Their Security Analysis in the Healthcare Sector</h1>
+<ul>
+    <li><a href="#HOME">HOME</a></li>
+    <li><a href="#DOCTOR">DOCTOR</a></li>
+    <li><a href="#PATIENT">PATIENT</a></li>
+</ul>
+<img src="{{url_for('static', filename='main.jpg')}}" align="middle" />
+</body>
+</html>
