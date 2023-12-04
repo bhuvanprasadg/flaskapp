@@ -9,7 +9,7 @@ packaging==23.2
 pip-tools==7.3.0
 pyproject_hooks==1.0.0
 tomli==2.0.1
-Werkzeug==3.0.0
+Werkzeug==3.0.1
 pandas
 mysql.connector
 flask_mail
